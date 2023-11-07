@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2017",
+    "sourceMap": false,
+    "noUnusedLocals": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "lib": ["ES2017", "ES6", "ES2016", "ScriptHost", "DOM"],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
